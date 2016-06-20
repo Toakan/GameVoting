@@ -1,6 +1,6 @@
 Plugin_ConVars() {
 	// general
-	cVersion  	= CreateConVar("sm_gamevoting_version",	"1.7",	"Version of gamevoting plugin. Author: Neatek, www.neatek.ru", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY );
+	cVersion  	= CreateConVar("sm_gamevoting_version",	"1.7",	"Version of gamevoting plugin. Author: Neatek, www.neatek.ru", FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY );
 	cEnable  	= CreateConVar("gamevoting_enable",		"1",	"Enable or disable plugin (def:1)", _, true, 0.0, true, 1.0);
 	cLogs  		= CreateConVar("gamevoting_logs",		"1",	"Enable or disable logs for plugin (def:1)", _, true, 0.0, true, 1.0);
 	cProgress  	= CreateConVar("gamevoting_progress",	"1",	"Do you want to log voting progress? (def:1)", _, true, 0.0, true, 1.0);
